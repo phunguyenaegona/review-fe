@@ -1,0 +1,28 @@
+body {
+  background-color: #dadada;
+}
+
+body > .grid {
+  height: 100%;
+}
+
+.column {
+  max-width: 450px;
+}
+
+.error.message:not(:empty) {
+  display: block !important;
+}
+
+.error.message {
+  text-align: left;
+  padding-left: 0;
+}
+
+.error.message ul li {
+  margin-bottom: 5px;
+}
+
+.ui.grid {
+  margin: 0;
+}
